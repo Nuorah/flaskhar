@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>{{ title }} - Microblog</title>
+    {% else %}
+    <title>Haroun Moatassime</title>
+    {% endif %}
+</head>
+<body>
+<nav>Haroun Moatassime : <a href='/index'>Index</a> <a href='/python'>Python</a></nav>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>
