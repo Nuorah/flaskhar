@@ -1,0 +1,33 @@
+div.container {
+    max-width: 880px;
+    margin: 48px auto;
+    padding: 0 40px;
+}
+
+div.header, div.navigation {
+    height: 25px;
+    margin-bottom: 42px;
+}
+
+div.header {
+    float: left;
+}
+
+div.navigation {
+    float: right;
+}
+
+div.body {
+    clear: both;
+    margin: 0 30px;
+    line-height: 1.6;
+}
+
+div.footer {
+    border-top: 1px solid #ddd;
+    color: #888;
+    font-size: 16px;
+    margin-top: 42px;
+    padding-top: 9px;
+    text-align: center;
+}

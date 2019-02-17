@@ -6,6 +6,6 @@ from flask import render_template
 def index():
     return render_template("index.html")
 
-@home.route('/python')
-def python():
-    return render_template("python.html")
+@home.route('/projets')
+def projets():
+    return render_template("projets.html")
