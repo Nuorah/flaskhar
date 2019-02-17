@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block content %}
+{% block body %}
 <p>This form imitates in a simple manner the algorithm of proof of work used in Bitcoin. A number (the nonce) is
 generated and appended to the block then the result is hashed. If the value of this hash is under the target(determined
     by the difficulty) the nonce is validated. Else it is incremented and tested again.</p>
