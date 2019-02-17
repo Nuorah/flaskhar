@@ -1,3 +1,11 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+ul.results {
+	list-style-type: none;
+}
+
 div.container {
     max-width: 880px;
     margin: 48px auto;
